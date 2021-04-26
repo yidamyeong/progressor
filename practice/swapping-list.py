@@ -13,6 +13,9 @@ print(b)
 # a 에서 가장 작은 값을 b에서 가장 큰 값과 교환해야 함
 a.sort()
 b.sort(reverse=True)
+print(b)
+b.sort(reverse=False)
+print(b)
 
 print('a 오름차순:', a)
 print('b 내림차순:', b)
